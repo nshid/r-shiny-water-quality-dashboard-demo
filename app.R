@@ -95,6 +95,24 @@ ui <- page_fillable(
         font-size: 1.35rem;
         font-weight: 700;
       }
+      .filter-heading {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+      }
+      .filter-help {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        border: 1px solid #97AAB5;
+        color: #5B7281;
+        font-size: 0.72rem;
+        line-height: 1;
+        cursor: help;
+      }
       .trend-summary p:last-child {
         margin-bottom: 0;
       }
@@ -129,14 +147,22 @@ ui <- page_fillable(
       sidebar = sidebar(
         class = "control-card",
         width = 320,
-        h4("Filters"),
+        div(
+          class = "filter-heading",
+          h4("Filters"),
+          tooltip(
+            span(class = "filter-help", HTML("&#9432;")),
+            "To filter, click inside a filter field to open the dropdown. Select one or more options. To remove a selected option, click it and press Delete or use the remove control shown in the field.",
+            placement = "right"
+          )
+        ),
         selectInput("parameter_filter", "Parameter", choices = NULL, multiple = TRUE),
         dateRangeInput("date_filter", "Date range"),
         selectInput("waterbody_filter", "Waterbody", choices = NULL, multiple = TRUE),
         selectInput("strata_filter", "Geographic strata", choices = NULL, multiple = TRUE),
         fileInput(
           "upload_records",
-          "Upload new records (CSV)",
+          "Upload to append new records (CSV)",
           accept = c(".csv", "text/csv", "text/comma-separated-values,text/plain")
         ),
         helpText("Upload columns: station_id, date, parameter, observed_value, unit."),

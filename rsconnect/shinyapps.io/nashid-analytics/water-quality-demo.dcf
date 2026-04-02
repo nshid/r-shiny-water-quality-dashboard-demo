@@ -1,0 +1,10 @@
+name: water-quality-demo
+title:
+username: nashid-analytics
+account: nashid-analytics
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 17048949
+bundleId: 11798081
+url: https://nashid-analytics.shinyapps.io/water-quality-demo/
+version: 1

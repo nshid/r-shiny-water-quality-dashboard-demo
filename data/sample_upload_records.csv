@@ -1,0 +1,13 @@
+record_id,station_id,date,parameter,observed_value,unit
+UPL1001,ST001,2024-05-15,Nitrate,3.21,mg/L
+UPL1002,ST001,2024-06-15,Nitrate,3.08,mg/L
+UPL1003,ST002,2024-05-15,Dissolved Oxygen,8.18,mg/L
+UPL1004,ST002,2024-06-15,Dissolved Oxygen,8.04,mg/L
+UPL1005,ST003,2024-05-15,Turbidity,15.42,NTU
+UPL1006,ST003,2024-06-15,Turbidity,15.88,NTU
+UPL1007,ST004,2024-05-15,Nitrate,4.02,mg/L
+UPL1008,ST004,2024-06-15,Nitrate,4.07,mg/L
+UPL1009,ST005,2024-05-15,Dissolved Oxygen,8.41,mg/L
+UPL1010,ST005,2024-06-15,Dissolved Oxygen,8.53,mg/L
+UPL1011,ST006,2024-05-15,Turbidity,14.97,NTU
+UPL1012,ST006,2024-06-15,Turbidity,15.35,NTU
