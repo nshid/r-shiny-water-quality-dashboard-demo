@@ -1,0 +1,7 @@
+station_id,station_name,latitude,longitude,waterbody,strata,parameter,trend_classification
+ST001,Fox River North,43.1965,-88.7241,Fox River,Northern Basin,Nitrate,Improving
+ST002,Lake Mason Central,42.9458,-89.3761,Lake Mason,Central Lakes,Dissolved Oxygen,Stable
+ST003,Prairie Creek East,41.882,-88.2014,Prairie Creek,Urban Corridor,Turbidity,Degrading
+ST004,Rock Tributary South,42.2718,-89.0931,Rock River,Southern Reach,Nitrate,Stable
+ST005,Wetland Outlet 3,44.0211,-88.5426,Cedar Wetland,Northern Basin,Dissolved Oxygen,Improving
+ST006,Harbor Channel West,43.0752,-87.8811,Harbor Channel,Coastal Fringe,Turbidity,Degrading
