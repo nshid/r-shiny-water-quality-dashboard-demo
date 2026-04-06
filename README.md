@@ -96,6 +96,10 @@ rsconnect::deployApp(appDir = ".")
 
 Additional repository-specific notes can be recorded in `rsconnect-note.md`.
 
+## Demo
+
+[Environmental Water Quality Dashboard](https://nashid-analytics.shinyapps.io/water-quality-demo/)
+
 ## iFrame Embedding Notes
 
 This prototype is designed with embedding in mind, but final iframe behavior should be validated early against the target website. Cross-domain behavior, response headers, content security policy, authentication patterns, and host-page styling can affect whether the embedded app works as intended.
